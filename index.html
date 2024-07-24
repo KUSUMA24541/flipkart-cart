@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <link rel="icon"
+        href="https://play-lh.googleusercontent.com/FA_rzaEeLlumm0qh68q3z5Pt-PGMVPf2Z28_pbega7SaXSiKjSzh-0MZceB3FpdvQIBq">
+    <style>
+        .four{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            cursor: pointer;
+        }
+        .shop{
+            color: blue;
+        }
+        .subcard img{
+            height: 200px;
+            width: 200px;
+            cursor: pointer;
+            box-shadow: 0.1px 0.1px 2px ;
+        }
+        .heading{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .four,.subcard,.heading,.shop,.card{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            width: 400px;
+            height: 500px;
+            padding: 50px;
+            background-color: rgba(128, 128, 128, 0.082);
+            gap: 20px;
+            box-shadow:2px 2px 6px black
+            
+        }
+        .shop:hover{
+            color: red;
+            cursor: pointer;
+        }
+        .span{
+            color: green;
+            cursor: pointer;
+            font-weight: 500px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="heading"> Best of Health & Wellness</div>
+        <div class="four">
+            <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/bottle/7/u/5/1000-botmultp6-6-botmultp6-flipkart-smartbuy-original-imahyubhu4t5tffq.jpeg?q=70"
+                    alt="">
+                <div class="about img"> Waterbottles <br> <span class="span"> Most-Loved</span></div>
+            </div>
+            <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/electric-cycle/b/z/q/kivo-easy-electric-bicycle-with-detachable-back-carrier-neon-original-imahyfp2hmyvabgh.jpeg?q=70"
+                    alt="">
+                <div class="about img"> Electric Cycle <br> <span class="span"> Min 40% off</span></div>
+            </div>
+            <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kit/k/a/m/30kghomegym-1-4-rj-fitness-5-original-imagh8cdzcrguwpw.jpeg?q=70"
+                    alt="">
+                <div class="about img"> Dumb Bells <br><span class="span"> Top Collection</span></div>
+            </div>
+            <div class="subcard">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kit/4/p/d/-original-imagya9mngtzhcwn.jpeg?q=70"
+                    alt="">
+                <div class="about img"> Badminton Kits <br> <span class="span"> Explore Now</span></div>
+            </div>
+        </div>
+        <div class="shop"> Shop Now</div>
+    </div>
+
+</body>
+
+</html>
